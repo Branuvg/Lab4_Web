@@ -9,6 +9,7 @@
     height: 100dvh;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     background: Yellow;
   }
@@ -20,9 +21,8 @@
     background-color: white;
     display: flex;
     flex-direction: column;
-    z-index: 0;
+    z-index: 3;
     border: 2px solid black;
-    margin-bottom: 50px;
   }
 
 
@@ -32,7 +32,6 @@
     flex-direction: row;
     justify-content: center;
     gap: 30px;
-    z-index: 2;
     margin-top: 50px;
   }
 
@@ -60,8 +59,7 @@
     justify-content: center;
     margin-bottom: 25px;
     margin-left: 100px;
-}
-
+  }
 
 
 .smile {
@@ -88,4 +86,57 @@
     margin-left: 50px;
     margin-bottom: 20px;
     border: 3px solid black;
+  }
+
+  .scarf {
+    border-radius:65% 62% 31% 32% / 82% 83% 27% 31% ;
+    width: 219px;
+    height: 80px;
+    background: linear-gradient(90deg, 
+        rgba(162,162,162,1) 35%, 
+        rgba(162,162,162,1) 40%, 
+        rgba(255,255,255,1) 40%, 
+        rgba(255,255,255,1) 60%, 
+        rgba(162,162,162,1) 60%, 
+        rgba(162,162,162,1) 65%);
+    display: flex;
+    flex-direction: column;     
+    margin-top:-60px;
+    z-index: 2;
+  }
+
+  .cuerpo {
+    border-radius: 65% 62% 31% 32% / 19% 19% 37% 48%;
+    width: 220px;
+    height: 210px;
+    background: linear-gradient(90deg, 
+        rgba(41,126,199,1) 35%, 
+        rgba(162,162,162,1) 35%, 
+        rgba(162,162,162,1) 40%, 
+        rgba(255,255,255,1) 40%, 
+        rgba(255,255,255,1) 60%, 
+        rgba(162,162,162,1) 60%, 
+        rgba(162,162,162,1) 65%, 
+        rgba(41,126,199,1) 65%);
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    border: 2px solid black;
+    margin-top: -60px;
+}
+
+.brazos {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 50px;
+  }
+
+  .brazos .brazo {
+    background-color: black;
+    width: 75px;
+    height: 55px;
+    border-radius: 100%;
   }
