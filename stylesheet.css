@@ -122,7 +122,15 @@
     flex-direction: column;
     z-index: 1;
     border: 2px solid black;
-    margin-top: -60px;
+    margin-top: 0px;
+    justify-content: center;
+    margin-top: -40px;
+}
+
+.torso {
+  width: 260px;
+  display: flex;
+  justify-content: center;
 }
 
 .brazos {
@@ -130,13 +138,15 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 60px;
-    margin-top: 50px;
   }
 
   .brazos .brazo {
-    background-color: black;
-    width: 75px;
-    height: 55px;
-    border-radius: 100%;
-  }
+    background: linear-gradient(180deg, 
+        rgba(41,126,199,1) 80%, 
+        rgba(255,255,255,1) 80%);
+    width: 40px;
+    height: 150px;
+    border-radius: 25%;
+    border: 2px solid black;
+}
+
