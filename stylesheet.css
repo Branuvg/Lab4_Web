@@ -11,7 +11,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background: Yellow;
+    background: rgb(253, 219, 25);
   }
 
   .cara {
@@ -21,7 +21,7 @@
     background-color: white;
     display: flex;
     flex-direction: column;
-    z-index: 3;
+    z-index: 5;
     border: 2px solid black;
   }
 
@@ -102,7 +102,7 @@
     display: flex;
     flex-direction: column;     
     margin-top:-60px;
-    z-index: 2;
+    z-index: 4;
   }
 
   .cuerpo {
@@ -120,7 +120,7 @@
         rgba(41,126,199,1) 65%);
     display: flex;
     flex-direction: column;
-    z-index: 1;
+    z-index: 3;
     border: 2px solid black;
     margin-top: 0px;
     justify-content: center;
@@ -150,3 +150,76 @@
     border: 2px solid black;
 }
 
+.hmm {
+  border-radius:20% ;
+  width: 220px;
+  height: 100px;
+  background-color: rgba(41,126,199,1);
+  margin-top:-100px;
+  z-index: 2;
+  border: 2px solid black;
+}
+
+.shorts {
+  border-radius:1% ;
+  width: 220px;
+  height: 80px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;     
+  margin-top:-20px;
+  z-index: 1;
+}
+
+.piernas {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.piernas .pierna {
+  background-color: black;
+  width: 100px;
+  height: 70px;
+  border-radius: 15%;
+  z-index: 1;
+}
+
+.shins {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+}
+
+.shins .shin {
+  background-color: white;
+  width: 40px;
+  height: 80px;
+  border-radius: 15%;
+  border: 2px solid black ;
+  z-index: 0;
+  margin-top:-20px;
+}
+
+.feets {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+}
+
+.feets .feet {
+  background-color: rgb(231, 167, 215);
+  width: 80px;
+  height: 30px;
+  border-radius: 50% 50% 50% 50% / 25% 25% 25% 25% ;
+  border: 2px solid black ;
+  z-index: 1;
+  margin-top:-20px;
+}
