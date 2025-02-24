@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+p {
+  margin-bottom: 5px;
+}
+
 .container {
     width: 100dvw;
     height: 100dvh;
@@ -132,6 +136,7 @@
   display: flex;
   justify-content: center;
 }
+
 
 .brazos {
     flex: 1;
